@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+class Rectangle {
+	int length;
+	int width;
+
+public:
+	Rectangle() {
+
+		length=0;
+		width=0;
+	}
+
+	Rectangle(int l,int w) {
+		length=l;
+		width=w;
+	}
+
+	void display() {
+		int perimeter,area;
+		area=length*width;
+		perimeter=2*(length+width);
+		cout << "Area: " <<area<< endl;
+		cout<< "Perimeter: " <<perimeter<<endl;
+	}
+};
+
+int main() {
+	Rectangle r1(2, 3), r2;
+	r1.display();
+	r2.display();
+}
