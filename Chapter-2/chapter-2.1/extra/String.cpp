@@ -1,22 +1,16 @@
 #include<iostream>
 using namespace std;
 
-#define SIZE 100
-
 class strtype{
     string p;
     int len;
     public:
     strtype(){
         this->p="";
-        this->len=SIZE;
+        this->len=0;
     }
    
     void set(string ptr){
-        if(ptr.length()>=SIZE){
-            cout<<"memory allocation failed"<<endl;
-            return;
-        }
         p=ptr;
        this-> len=ptr.length();
     }
