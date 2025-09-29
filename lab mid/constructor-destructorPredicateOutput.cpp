@@ -1,6 +1,5 @@
-/*
- predict the output of the following program
- */
+
+ //predict the output of the following program
 #include<iostream>
 using namespace std;
 
@@ -29,5 +28,6 @@ Demo Constructor
 inside block with id: 54
 Demo Destructor
 After Block
+
 
  */
