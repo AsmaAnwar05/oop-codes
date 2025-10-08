@@ -1,0 +1,1 @@
+CMakeLists.txt not found in E:\clion project\ch 1.6\exercise Select CMakeLists.txt
