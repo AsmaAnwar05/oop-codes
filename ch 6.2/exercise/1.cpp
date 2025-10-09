@@ -1,3 +1,5 @@
+/*The following program overloads the + operator relative to the coord class. This class
+is used to maintain X, Y coordinates.*/
 #include<iostream>
 using namespace std;
 class Coord
